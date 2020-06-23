@@ -1,0 +1,3 @@
+框架简述：项目启动后，第一次请求执行DispatchServlet的init方法，创建MvcContext，MvcContext构造函数将遍历spring容器全部bean，找出全部添加了注解@ReqMapping的方法生成HandleMethod，塞进HandleMethod类型的Map集合。
+
+流程：请求由服务器转到DispatchServlet，dispatchServlet根据url匹配到相应的处理器，处理器进行业务处理后返回view，freemark对view进行处理，返回html
