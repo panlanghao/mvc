@@ -22,7 +22,7 @@
     <project.build.sourceEncoding>${characterSet}</project.build.sourceEncoding>
     <project.reporting.outputEncoding>${characterSet}</project.reporting.outputEncoding>
     <project.build.locale>zh_CN</project.build.locale>
-    <spring.version>5.2.7.RELEASE</spring.version>
+    <spring.version>6.0.0</spring.version>
     <freemarker.version>2.3.30</freemarker.version>
   </properties>
 
